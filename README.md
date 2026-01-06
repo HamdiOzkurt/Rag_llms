@@ -24,7 +24,7 @@ Uygulama, RAG (Retrieval-Augmented Generation) mimarisini kullanır. Yüklenen P
 - Docker ve Docker Compose (Önerilen)
 - VEYA Python 3.9+ ve yerel olarak çalışan bir Ollama kurulumu
 
-## d🐳 Docker ile Kurulum (Önerilen)
+## 🐳 Docker ile Kurulum (Önerilen)
 
 En kolay kurulum yöntemidir. Tüm servisleri (Uygulama ve Ollama) tek komutla ayağa kaldırır.
 
@@ -66,7 +66,7 @@ Docker kullanmadan çalıştırmak isterseniz:
    ```bash
    ollama serve
    ```
-   *Gerekli modeli indirdiğinizden emin olun (kod içinde varsayılan olarak kullanılan model, örn: `mistral`, `llama2` veya `nomic-embed-text` vb.).*
+   *Gerekli modeli indirdiğinizden emin olun (kod içinde varsayılan olarak kullanılan model, örn: `mistral`, `llama` veya `nomic-embed-text` vb.).*
 
 4. **Uygulamayı başlatın:**
    ```bash
